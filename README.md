@@ -73,6 +73,6 @@ Yes, the results match my results.
 Linear search time grows linearly with n being roughly proportional to the list size. Binary search time grows slower, closer to a flat line, because log2(n) increases very slowly.
 Small inputs might look similar because of timing noise, but for large inputs there is a clearer gap
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
-  + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here** 
-  + For binary search? **TODO: your answer goes here**
-  + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here**
+  + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here** O(kn)
+  + For binary search? **TODO: your answer goes here** O(n2+klogn)
+  + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here** k>n^2/n-logn
